@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sing-in-div{
+    background-image: url("https://www.teknofilo.com/wp-content/uploads/2021/06/Netflix.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#netflix{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    position: relative;
+    top:20px;
+    left: 60px;
+}
+
+#sign-in{
+    font-size: 15px;
+    color: rgb(238, 235, 235);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    background: red;
+    border-radius: 5px;
+    text-decoration: none;
+    padding:10px 15px ;
+    position: relative;
+    top:12px;
+    left: 1050px;
+}
+#email-div{
+    text-align: center;
+    top: 190px;
+    position: relative;
+}
+#intruduce{
+    color: rgb(235, 235, 235);
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    position: relative;
+}
+#intruduce2{
+    position: relative;
+    
+}
+#intruduce3{
+    font-size: 30px;
+    color: rgb(235, 235, 235);
+    position: relative;
+    
+}
+.email-information{
+    font-size: 18px;
+    color: rgb(235, 235, 235);
+}
+#email-infomation{
+    font-size: 20px;
+    position: relative;
+    left: 360px;
+}
+.email{
+    height: 48px;
+    width: 470px;
+    font-size: 20px;
+}
+#email{
+    position: relative;
+    left:340px;
+}
+.get-started{
+    font-size: 30px;
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    background: red;
+    position: relative;
+    top: 4px;
+    padding: 9px 10px;
+}
+
+#get-started{
+    position: relative;
+    left:340px;
+}
+.img{
+    margin: -10px 0px 0px 0px;
+}
+#know-about-netflix{
+    background: black;
+    margin: -10px 0px 0px 0px;
+}
+#asked-question{
+    color: white;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ #what-is-netflix{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    cursor: pointer;
+    position: relative;
+    left:250px;
+}
+#what-is-netflix-ans-div{
+    display: none;
+    cursor: pointer;
+}
+#what-is-netflix2{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    position: relative;
+    left:250px;
+}
+#what-is-netflix-ans{
+    color: rgb(235, 235, 235);
+    background-color: rgb(63, 62, 62);
+    font-size: 30px;  
+    width: 800px;
+    padding: 20px 0px;
+    position: relative;
+    bottom: 17px;
+    left:250px;
+}
+
+#how-cost{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    left:250px;
+}
+#how-cost-ans-div{
+    display: none;
+    cursor: pointer;
+}
+#how-cost2{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    position: relative;
+    left:250px;
+}
+#how-cost-ans{
+    color: rgb(235, 235, 235);
+    color: rgb(235, 235, 235);
+    background-color: rgb(63, 62, 62);
+    font-size: 30px;  
+    width: 800px;
+    padding: 20px 0px;
+    position: relative;
+    top: 1px;
+    left:250px;
+}
+#where-watch{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    cursor: pointer;
+    position: relative;
+    top: 8px;
+    left:250px;
+}
+#where-watch-ans-div{
+    display: none;
+    cursor: pointer;
+}
+#where-watch2{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    position: relative;
+    left:250px;
+}
+#where-watch-ans{
+    color: rgb(235, 235, 235);
+    color: rgb(235, 235, 235);
+    background-color: rgb(63, 62, 62);
+    font-size: 30px;  
+    width: 800px;
+    padding: 20px 0px;
+    position: relative;
+    bottom: 17px;
+    left:250px;
+    top: 1px;
+
+}
+#how-to-cancel{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left:250px;
+}
+#how-to-cancel-ans-div{
+    display: none;
+    cursor: pointer;
+}
+#how-to-cancel2{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    position: relative;
+    left:250px;
+    top: 20px;
+}
+#how-to-cancel-ans{
+    color: rgb(235, 235, 235);
+    color: rgb(235, 235, 235);
+    background-color: rgb(63, 62, 62);
+    font-size: 30px;  
+    width: 800px;
+    padding: 20px 0px;
+    position: relative;
+    bottom: 17px;
+    position: relative;
+    top: 21px;
+    left:250px;
+}
+#what-can-see{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    cursor: pointer;
+    position: relative;
+    top: 33px;
+    left:250px;
+    margin: 0px 0px 0px 0px;
+}
+#what-can-see-ans-div{
+    display: none;
+    cursor: pointer;
+}
+#what-can-see2{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    left:250px;
+    position: relative;
+    margin: 33px 0px 0px 0px;
+}
+#what-can-see-ans{
+    color: rgb(235, 235, 235);
+    color: rgb(235, 235, 235);
+    background-color: rgb(63, 62, 62);
+    font-size: 30px;  
+    width: 800px;
+    padding: 20px 0px;
+    bottom: 17px;
+    position: relative;
+    top: 1px;
+    left:250px;
+}
+#good-for-kids{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    cursor: pointer;
+    position: relative;
+    left:250px;
+    margin: 47px 0px 0px 0px;
+}
+#good-for-kids-ans-div{
+    display: none;
+    cursor: pointer;
+}
+#good-for-kids2{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 62, 62);
+    width: 800px;
+    padding: 15px 0px;
+    position: relative;
+    left:250px;
+    margin: 35px 0px 0px 0px;  
+}
+#good-for-kids-ans{
+    color: rgb(235, 235, 235);
+    color: rgb(235, 235, 235);
+    background-color: rgb(63, 62, 62);
+    font-size: 30px;  
+    width: 800px;
+    padding: 20px 0px;
+    position: relative;
+    bottom: 17px;
+    position: relative;
+    top: 1px;
+    left:250px;
+}
+.what-is-netflix-plus{
+    left: 450px;
+    position: relative;
+}
+.how-cost-plus{
+    position: relative;
+    left: 255px;
+}
+.where-watch-plus{
+    position: relative;
+    left: 400px;
+}
+.how-to-cancel-plus{
+    position: relative;
+    left: 430px;
+}
+.what-can-see-plus{
+    position: relative;
+    left: 260px;
+}
+.good-for-kids-plus{
+    position: relative;
+    left: 320px;
+}
+#extra{
+    background-color:rgb(37, 37, 37) ;
+    height: 7px;
+}
+
+#last{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#question-title{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(121, 118, 118);
+    margin: 0px 0px 0px 200px;
+    position: relative;
+}
+#question-title::after{
+    content: '';
+    background: rgb(121, 118, 118);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.question{
+    text-decoration: none;
+    color: rgb(121, 118, 118);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 0px 200px;
+    position: relative;
+}
+.question::after{
+    content: '';
+    background-color: rgb(121, 118, 118);
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top:16px ;
+}
+#faq::after{
+    width: 0%;
+}
+#faq:hover::after{
+    width: 100%;
+}
+#help-center:hover::after{
+    width: 100%;
+}
+
+#account:hover::after{
+    width: 100%;
+}
+#media-center:hover::after{
+    width: 100%;
+}
+#investor-relations:hover::after{
+    width: 100%;
+}
+#jobs{
+    position: relative;
+    right: 98px;
+}
+#jobs:hover::after{
+    width: 100%;
+}
+#ways-to-watch{
+    position: relative;
+    right: 45px;
+}
+#ways-to-watch:hover::after{
+    width: 100%;
+}
+#terms-of-use{
+    position: relative;
+    right: 90px;
+}
+#ways-to-watch:hover::after{
+    width: 100%;
+}
+#terms-of-use:hover::after{
+    width: 100%;
+}
+#privacy:hover::after{
+    width: 100%;
+}
+#cookie-preferences{
+    position: relative;
+    right: 22px;
+}
+#cookie-preferences:hover::after{
+    width: 100%;
+}
+#corporate-information{
+    position: relative;
+    right: 75px;
+}
+#corporate-information:hover::after{
+    width: 100%;
+}
+#contact-us{
+    position: relative;
+    right: 178px;
+}
+#contact-us:hover::after{
+    width: 100%;
+}
+#speed-test:hover::after{
+    width: 100%;
+}
+#legal-notices{
+    position: relative;
+    right: 50px;
+}
+#legal-notices:hover::after{
+    width: 100%;
+}
+
+#only-on-netflix{
+    position: relative;
+    right: 62px;
+}
+#only-on-netflix:hover::after{
+    width: 100%;
+}
+
+#netflix-bangladesh::after{
+    width: 0;
+}
